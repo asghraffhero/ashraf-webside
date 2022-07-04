@@ -3,12 +3,12 @@ body{
     margin: 0;
 }
 h1{
-    font-size: 50px;
+    font-size: 40px;
 }
 .big{
     color:orangered
 }
-section{
+.flexcontenar{
     display: flex;
     margin-bottom: 100px;
 }
@@ -35,4 +35,27 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.experiences{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.stylecd{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    box-shadow: 10px 10px 40px gray;
+    
+    
+}
+#sadid{
+    border-left: 7px solid tomato;
+}
+#ashraf{
+    border-left: 7px solid blue;
+}
+footer p{
+ text-align: center;
 }
